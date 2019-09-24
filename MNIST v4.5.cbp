@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MNIST v4.5" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MNIST v4.5" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MNIST v4.5" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Activations.cpp" />
+		<Unit filename="Activations.h" />
+		<Unit filename="CONV_BN.cpp" />
+		<Unit filename="ConvBackProb.cpp" />
+		<Unit filename="ConvBackProb.h" />
+		<Unit filename="ConvFeedForward.cpp" />
+		<Unit filename="ConvFeedForward.h" />
+		<Unit filename="DataSet.cpp" />
+		<Unit filename="DataSet.h" />
+		<Unit filename="Dictionary.h" />
+		<Unit filename="FC_BackProb.cpp" />
+		<Unit filename="FC_FeedForward.cpp" />
+		<Unit filename="FullyConnected.cpp" />
+		<Unit filename="LeNet1.cpp" />
+		<Unit filename="Matrix.h" />
+		<Unit filename="NN_Tools.cpp" />
+		<Unit filename="NN_Tools.h" />
+		<Unit filename="NeuralNetwork.cpp" />
+		<Unit filename="NeuralNetwork.h" />
+		<Unit filename="Thread_Helpers.cpp" />
+		<Unit filename="VectVolume.cpp" />
+		<Unit filename="VectVolume.h" />
+		<Unit filename="Volume.cpp" />
+		<Unit filename="Volume.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="other.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

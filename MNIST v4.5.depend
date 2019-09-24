@@ -1,0 +1,122 @@
+# depslib dependency file v1.0
+1558094216 source:f:\codes\c++\asd\mnist v4.5\activations.cpp
+	"Activations.h"
+
+1554734922 f:\codes\c++\asd\mnist v4.5\activations.h
+	"Matrix.h"
+
+1558092003 f:\codes\c++\asd\mnist v4.5\matrix.h
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<iomanip>
+	<sstream>
+	<math.h>
+	<random>
+	<fstream>
+	<conio.h>
+
+1557373964 source:f:\codes\c++\asd\mnist v4.5\conv_bn.cpp
+	"NeuralNetwork.h"
+
+1557424355 f:\codes\c++\asd\mnist v4.5\neuralnetwork.h
+	"Dictionary.h"
+	"Matrix.h"
+	"Volume.h"
+	"VectVolume.h"
+	"NN_Tools.h"
+	"Activations.h"
+	"ConvFeedForward.h"
+	"ConvBackProb.h"
+	<thread>
+
+1558038398 f:\codes\c++\asd\mnist v4.5\dictionary.h
+	<iostream>
+	<string>
+	<process.h>
+	<conio.h>
+	<list>
+	<vector>
+	<stdlib.h>
+	<cstring>
+	"VectVolume.h"
+
+1552831664 f:\codes\c++\asd\mnist v4.5\vectvolume.h
+	"Volume.h"
+
+1554738712 f:\codes\c++\asd\mnist v4.5\volume.h
+	<vector>
+	"Matrix.h"
+	<stdlib.h>
+
+1558091002 f:\codes\c++\asd\mnist v4.5\nn_tools.h
+	<iostream>
+	"Matrix.h"
+	"Activations.h"
+	"Volume.h"
+	"ConvFeedForward.h"
+	<thread>
+
+1558041899 f:\codes\c++\asd\mnist v4.5\convfeedforward.h
+	"VectVolume.h"
+
+1557273540 f:\codes\c++\asd\mnist v4.5\convbackprob.h
+	"NeuralNetwork.h"
+	"ConvFeedForward.h"
+
+1557401565 source:f:\codes\c++\asd\mnist v4.5\convbackprob.cpp
+	"NeuralNetwork.h"
+
+1558041899 source:f:\codes\c++\asd\mnist v4.5\convfeedforward.cpp
+	"NeuralNetwork.h"
+
+1558095784 source:f:\codes\c++\asd\mnist v4.5\fc_backprob.cpp
+	"NeuralNetwork.h"
+	"NN_Tools.h"
+
+1558094274 source:f:\codes\c++\asd\mnist v4.5\fc_feedforward.cpp
+	"NeuralNetwork.h"
+
+1558095622 source:f:\codes\c++\asd\mnist v4.5\fullyconnected.cpp
+	"NeuralNetwork.h"
+	"NeuralNetwork.h"
+
+1557428382 source:f:\codes\c++\asd\mnist v4.5\lenet1.cpp
+
+1558095737 source:f:\codes\c++\asd\mnist v4.5\main.cpp
+	"DataSet.h"
+	"NeuralNetwork.h"
+	"ConvFeedForward.h"
+
+1558088103 f:\codes\c++\asd\mnist v4.5\dataset.h
+	<fstream>
+	<vector>
+	<conio.h>
+	<thread>
+	"ConvFeedForward.h"
+	"Volume.h"
+	"Matrix.h"
+	"ConvFeedForward.h"
+	"NN_Tools.h"
+
+1558049687 source:f:\codes\c++\asd\mnist v4.5\neuralnetwork.cpp
+	"NeuralNetwork.h"
+
+1558087339 source:f:\codes\c++\asd\mnist v4.5\nn_tools.cpp
+	"NN_Tools.h"
+
+1558088237 source:f:\codes\c++\asd\mnist v4.5\other.cpp
+	"NeuralNetwork.h"
+
+1558088243 source:f:\codes\c++\asd\mnist v4.5\thread_helpers.cpp
+	"NeuralNetwork.h"
+
+1554739130 source:f:\codes\c++\asd\mnist v4.5\vectvolume.cpp
+	"VectVolume.h"
+
+1554738712 source:f:\codes\c++\asd\mnist v4.5\volume.cpp
+	"Volume.h"
+
+1558091107 source:f:\codes\c++\asd\mnist v4.5\dataset.cpp
+	"DataSet.h"
+
